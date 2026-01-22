@@ -1,0 +1,17 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        rubik: ['Rubik', 'sans-serif'],
+        limelight: ['Limelight', 'cursive'],
+        ubuntu: ['Ubuntu', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}

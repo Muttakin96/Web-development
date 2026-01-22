@@ -1,0 +1,23 @@
+# Environment variables (contains sensitive data)
+.env
+
+# Composer dependencies
+vendor/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
